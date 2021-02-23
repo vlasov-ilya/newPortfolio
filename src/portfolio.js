@@ -76,10 +76,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "mongo-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -98,26 +94,22 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "CareeFoundry Boot Camp",
+      logo: require("./assets/images/CF.png"),
+      subHeader: "Full-Stack Web Development Program",
+      duration: "September 2020 - January 2021",
+      desc: "MERN and MEAN Web Development",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Le Cordon Bleu College Of Culinary Art",
+      logo: require("./assets/images/LCB.jpg"),
+      subHeader: "Bachelor of restaurant hospitality and management",
+      duration: "September 2013 - July 2017",
       desc:
         "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -129,7 +121,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", 
-      progressPercentage: "60%" 
+      progressPercentage: "50%" 
     },
     {
       Stack: "Backend",
@@ -137,7 +129,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "50%"
+      progressPercentage: "35%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -146,37 +138,44 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to false to hide workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
-      desc:
-        "Changing lives of developers one line of code at a time.",
+      role: "FULL STACK WEB DEVELOPMENT TUTOR",
+      company: "Westcliff University",
+      companylogo: require("./assets/images/westcliff-logo.png"),
+      date: "December 2020 – Present",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Created lesson materials, visuals, and digital presentations to supplement lesson plans",
+        "Run office hours for students over Zoom",
+        "Helping student with existing projects in a friendly atmosphere"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+      role: "SOFTWARE ENGINEER INTERN",
+      company: "ExporAstay",
+      companylogo: require("./assets/images/explorastay.png"),
+      date: "November 2020 – December 2020",
+      descBullets: [
+        "Upgrade website search page by using map clustering",
+        "Suggested ideas for improving UI",
+        "Managed time-sensitive updates, including content changes",
+        "Collaborated with team members to implement new feature developments",
+        "Worked closely with CTO when needed "
+      ]
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+      role: "ASSISTANT GENERAL MANAGER",
+      company: "Lexx Restaurant",
+      companylogo: require("./assets/images/Lexx.jpg"),
+      date: "May 2018 – December 2019",
+      descBullets: [
+        "Maintain and develop interpersonal communication with clientele (customer relations)",
+        "Managed all aspects of restaurant operations achieving high level of customer satisfaction",
+        "Effectively resolved various internal and customer facing issues and conflicts",
+        "Motivated and led team members to work together to achieve targets",
+        "Creating a positive workplace atmosphere"
+      ]
     }
   ]
 };
@@ -197,29 +196,29 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "fa"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: ""
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/saayaHealthLogo.webp"),
+    //   projectName: "Saayahealth",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "fa"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   projectName: "Nextu",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: ""
+    //     }
+    //   ]
+    // }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -230,19 +229,19 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "StackSkills Certifications ",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "stackskills.com certifications for completing the program",
+      image: require("./assets/images/SS.png"),
       footerLink: [
         {
           name: "Certification",
-          url:
-            ""
+          image:
+            "../src/assets/images/certificate-of-completion-for-beginners-r-programming-data-science-and-machine-learning.pdf"
         },
         {
           name: "Award Letter",
@@ -253,32 +252,6 @@ const achievementSection = {
           name: "Google Code-in Blog",
           url:
             ""
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url:
-            ""
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: ""
         }
       ]
     }
