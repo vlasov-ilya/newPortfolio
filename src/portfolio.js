@@ -153,7 +153,7 @@ const workExperiences = {
     },
     {
       role: "SOFTWARE ENGINEER INTERN",
-      company: "ExporAstay",
+      company: "ExplorAstay",
       companylogo: require("./assets/images/explorastay.png"),
       date: "November 2020 – December 2020",
       descBullets: [
@@ -180,7 +180,7 @@ const workExperiences = {
   ]
 };
 
-// /* Your Open Source Section to View Your Github Pinned Projects
+// /* My Open Source Section to View Your Github Pinned Projects
 // To know how to get github key look at readme.md */
 
 const openSource = {
@@ -200,7 +200,7 @@ const bigProjects = {
       {
         image: require("./assets/images/omnifood.png"),
         projectName: "Omnifood",
-        projectDesc: "Fully Responciwe Web Page. Builded with HTML, CSS, Bootstrap, JavaScript, and jQuery",
+        projectDesc: "Fully responsive Web Page. Built with HTML, CSS, Bootstrap, JavaScript, and jQuery",
         footerLink: [
           {
             name: "Visit Website",
