@@ -21,7 +21,7 @@ export default function Projects() {
 
   function getRepoData() {
     const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
+      uri: "",
       request: operation => {
         operation.setContext({
           headers: {

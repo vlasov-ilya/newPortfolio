@@ -120,8 +120,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", 
-      progressPercentage: "50%" 
+      Stack: "Frontend / Design",
+      progressPercentage: "50%"
     },
     {
       Stack: "Backend",
@@ -186,41 +186,79 @@ const workExperiences = {
 const openSource = {
   githubConvertedToken: process.env.bf7810e05d3e5b2543a84c85984e1f9a29d16b60,
   githubUserName: "vlasov-ilya",
-  showGithubProfile: "true", 
-  display: false 
+  showGithubProfile: "true",
+  display: false
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    // {
-    //   image: require("./assets/images/saayaHealthLogo.webp"),
-    //   projectName: "Saayahealth",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "fa"
-    //     }
-    //     //  you can add extra buttons here.
-    //   ]
-    // },
-    // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   projectName: "Nextu",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: ""
-    //     }
-    //   ]
-    // }
-  ],
-  display: false // Set false to hide this section, defaults to true
+  title: "My Projects",
+  subtitle: "Projects I have made as part of certification or skill improvement ",
+  projects:
+    [
+      {
+        image: require("./assets/images/omnifood.png"),
+        projectName: "Omnifood",
+        projectDesc: "Fully Responciwe Web Page. Builded with HTML, CSS, Bootstrap, JavaScript, and jQuery",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://vivdevelop.netlify.app/portfolio/omnifood/"
+          },
+          {
+            name: "See the code",
+            url: "https://github.com/vlasov-ilya/Omnifood"
+          }
+        ]
+      },
+      {
+        image: require("./assets/images/Pokedex.png"),
+        projectName: "Pokedex",
+        projectDesc: "An app that displays information about various Pokemon from JSON made in JavaScript",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://pokedexbyilya.netlify.app/"
+          },
+          {
+            name: "See the code",
+            url: "https://github.com/vlasov-ilya/Pokedex"
+          }
+        ]
+      },
+      {
+        image: require("./assets/images/MooVIV.png"),
+        projectName: "MooVIV",
+        projectDesc: "Full-Stack MERN project as part of CareerFoundry Boot Camp.",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://mooviv.netlify.app/"
+          },
+          {
+            name: "See the Front-End code",
+            url: "https://github.com/vlasov-ilya/MooVIV-client"
+          },
+          {
+            name: "See the Back-End code",
+            url: "https://github.com/vlasov-ilya/MooVIV"
+          }
+        ]
+      },
+      {
+        image: require("./assets/images/ChatApp.gif"),
+        projectName: "ChatApp",
+        projectDesc: "Chat App created with React Native, Firebase, and Expo",
+        footerLink: [
+          {
+            name: "See the code",
+            url: "https://github.com/vlasov-ilya/Chat-App"
+          }
+        ]
+      },
+    ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -314,7 +352,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "", 
+  userName: "",
   display: false // Set true to display this section, defaults to false
 };
 
