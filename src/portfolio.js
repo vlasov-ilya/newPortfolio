@@ -26,9 +26,9 @@ const socialMediaLinks = {
   instagram: 'https://www.instagram.com/fox20073/',
   facebook: "https://www.facebook.com/IVV5793",
   // gitlab: "https://gitlab.com/",
-  // medium: "https://medium.com/",
+  medium: "	https://medium.com/@ilya_vlasov",
   // stackoverflow: "https://stackoverflow.com/",
-  // twitter: 'https://twitter.com/',
+  twitter: 'https://twitter.com/_IlyaVlasov_',
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -117,7 +117,7 @@ const educationInfo = {
 // My top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend / Design",
@@ -230,15 +230,23 @@ const bigProjects = {
       {
         image: require("./assets/images/MooVIV.png"),
         projectName: "MooVIV",
-        projectDesc: "Full-Stack MERN project as part of CareerFoundry Boot Camp.",
+        projectDesc: "Full-Stack MERN and MEAN project as part of CareerFoundry Boot Camp.",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Visit Website for React",
             url: "https://mooviv.netlify.app/"
           },
           {
-            name: "See the Front-End code",
+            name: "Visit Website for Angular",
+            url: "https://vlasov-ilya.github.io/MooVIV-Client-Angular/welcome"
+          },
+          {
+            name: "See the React Front-End code",
             url: "https://github.com/vlasov-ilya/MooVIV-client"
+          },
+          {
+            name: "See the Angular Front-End code",
+            url: "https://github.com/vlasov-ilya/MooVIV-Client-Angular"
           },
           {
             name: "See the Back-End code",
